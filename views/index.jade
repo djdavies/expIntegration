@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  p Selection filters: #{title}
+    p
+    a(href='users') Users
+    p
+      a(href='users/id') IDs
+    p
+     a(href='users/firstnames') first names
+    p
+      a(href='users/lastnames') last names
+    p  
+    a(href='users/emails') emails
+    p 
+    a(href='users/phones') phones
